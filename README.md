@@ -113,6 +113,7 @@ VITE_BASE_CURRENCY=INR
 ```
 Example live URL: https://fluffy-kitsune-649b45.netlify.app/
 ```
+[Netlify Link](https://fluffy-kitsune-649b45.netlify.app/)
 ---
 
 ## Folder Structure
