@@ -109,7 +109,7 @@ VITE_METAL_API_KEY=your_api_key_here
 VITE_BASE_CURRENCY=INR
 ```
 
-5. Deploy the site. Live URL will be provided by Netlify.
+5. Deploy the site. Netlify will provide a live URL once deployment is complete.
 
 Example live URL: https://fluffy-kitsune-649b45.netlify.app/
 
