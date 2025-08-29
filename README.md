@@ -71,6 +71,12 @@ npm run dev
 ```
 
 * Open in browser: `http://localhost:5173/`
+Vite will automatically assign an available port. If 5173 is occupied, it might use http://localhost:5170/ or another free port.
+You can also change the port manually by running:
+```bash
+npm run dev -- --port 3000
+```
+Replace 3000 with any port number you prefer.
 
 ---
 
@@ -111,18 +117,21 @@ VITE_BASE_CURRENCY=INR
 ```
 metal-price/
 ├─ src/
-│ ├─ assets/ # Images for metals
-│ ├─ gold.png
-│ ├─ silver.png
-│ ├─ platinum.png
-│ └─ palladium.png
-│ ├─ hooks/ # Custom hooks
-│ └─ useMetalPrices.js
-│ ├─ pages/ # React pages
-│ ├─ Home.jsx
-│ └─ MetalPage.jsx
-│ └─ main.jsx # App entry point
-├─ .env # API keys (local only, NOT uploaded to GitHub)
+│  ├─ assets/           # Images for metals
+│     ├─ gold.png
+│     ├─ silver.png
+│     ├─ platinum.png
+│     └─ palladium.png
+│  ├─ hooks/            # Custom hooks (if any)
+│  │  └─ useMetalPrices.js
+│  ├─ pages/            # App pages
+│  │  ├─ Home.jsx
+│  │  └─ MetalPage.jsx
+│  ├─ App.jsx
+│  └─ main.jsx           # App entry point
+├─ .env                  # API keys (local only)
+├─ index.html
+├─ .gitignore
 ├─ package.json
 └─ README.md
 
