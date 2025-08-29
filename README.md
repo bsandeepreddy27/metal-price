@@ -112,8 +112,9 @@ VITE_BASE_CURRENCY=INR
 5. Deploy the site. Netlify will provide a live URL once deployment is complete.
 ```
 Example live URL: https://fluffy-kitsune-649b45.netlify.app/
-```
 [Netlify Link](https://fluffy-kitsune-649b45.netlify.app/)
+```
+
 ---
 
 ## Folder Structure
