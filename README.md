@@ -71,6 +71,7 @@ npm run dev
 ```
 
 * Open in browser: `http://localhost:5173/`
+
 Vite will automatically assign an available port. If 5173 is occupied, it might use http://localhost:5170/ or another free port.
 You can also change the port manually by running:
 ```bash
